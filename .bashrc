@@ -3,6 +3,8 @@ alias sublime='open /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/s
 alias music="open ~/Music"
 alias speedtest-ctl='/Applications/speedtest-cli/speedtest'
 alias chrome='open -a "google chrome"'
+alias chrome-github='chrome https://github.com/thequert'
+alias chrome-repo='chrome https://github.com/thequert/?tab=repositories'
 alias cd-g='cd ~/Documents/GitHub'
 alias cd-tab='cd ~/Documents/Winnie/.tab'
 alias 想='ls 想*'
