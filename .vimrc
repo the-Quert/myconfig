@@ -19,7 +19,6 @@ highlight ColorColumn ctermbg=0 guibg=lightgrey
 
 call plug#begin('~/.vim/plugged')
 
-Plug 'mohetz/gruvbox'
 Plug 'hermmen/vim-ripgrep'
 Plug 'tpope/vim-fugitive'
 Plug 'vim-utils/vim-man'
@@ -30,5 +29,4 @@ Plug 'mbbill/undotree'
 
 call plug#end()
 
-colorscheme gruvbox
 set background=dark
