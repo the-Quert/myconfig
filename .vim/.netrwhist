@@ -1,0 +1,6 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =4
+let g:netrw_dirhist_4='/Users/quert/Documents/GitHub'
+let g:netrw_dirhist_3='/Users/quert/Documents/GitHub/self-md'
+let g:netrw_dirhist_2='/Users/quert/Documents/GitHub/cs224n-2019/Speech and Language Processing'
+let g:netrw_dirhist_1='/Users/quert/Documents/GitHub/Sites'
