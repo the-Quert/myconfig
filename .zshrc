@@ -8,8 +8,7 @@ export ZSH="/Users/quert/.oh-my-zsh"
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-# ZSH_THEME="robbyrussell"
-ZSH_THEME="ys"
+ZSH_THEME="powerlevel9k/powerlevel9k"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -46,6 +45,8 @@ ZSH_THEME="ys"
 # ENABLE_CORRECTION="true"
 
 # Uncomment the following line to display red dots whilst waiting for completion.
+# Caution: this setting can cause issues with multiline prompts (zsh 5.7.1 and newer seem to work)
+# See https://github.com/ohmyzsh/ohmyzsh/issues/5765
 # COMPLETION_WAITING_DOTS="true"
 
 # Uncomment the following line if you want to disable marking untracked files
@@ -69,7 +70,12 @@ ZSH_THEME="ys"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git)
+plugins=(
+    git
+    docker
+    zsh-syntax-highlighting
+    zsh-autosuggestions
+)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -97,7 +103,6 @@ source $ZSH/oh-my-zsh.sh
 #
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
-# alias ohmyzsh="mate ~/.oh-my-zsh"
 alias cd-g='cd ~/Documents/GitHub'
 alias cd-tab='cd ~/Documents/Winnie/.tab'
 alias 想='ls 想*'
@@ -116,4 +121,4 @@ alias cd-test='cd ~/Documents/test_command'
 alias chrome-pages='chrome https://thequert.github.io/'
 export EDITOR='vim'
 export PATH=/Users/quert/Library/Python/3.8/bin/:$PATH
-export DEFAULT_USER='whoami'
+export DEFAULT_USER='whoami'# alias ohmyzsh="mate ~/.oh-my-zsh"
