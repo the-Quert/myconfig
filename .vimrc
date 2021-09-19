@@ -6,6 +6,9 @@ set shiftwidth=4
 set expandtab
 set smartindent
 set nu
+set ai
+set cursorline
+set mouse=a
 set nowrap
 set smartcase
 set noswapfile
@@ -13,8 +16,9 @@ set nobackup
 set undodir=~/.vim/undodir
 set undofile
 set incsearch
-
+set bg=dark
 set colorcolumn=80
+
 highlight ColorColumn ctermbg=0 guibg=lightgrey
 
 call plug#begin('~/.vim/plugged')
@@ -29,4 +33,3 @@ Plug 'mbbill/undotree'
 
 call plug#end()
 
-set background=dark
