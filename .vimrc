@@ -32,4 +32,3 @@ Plug 'git@github.com:Valloric.YouCompleteMe.git'
 Plug 'mbbill/undotree'
 
 call plug#end()
-
