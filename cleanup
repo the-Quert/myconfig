@@ -110,9 +110,9 @@ done 2>/dev/null &
 
 oldAvailable=$(df / | tail -1 | awk '{print $4}')
 
-msg 'Emptying the Trash 🗑 on all mounted volumes and the main HDD...'
-sudo rm -rfv /Volumes/*/.Trashes/* &>/dev/null
-sudo rm -rfv ~/.Trash/* &>/dev/null
+# msg 'Emptying the Trash 🗑 on all mounted volumes and the main HDD...'
+# sudo rm -rfv /Volumes/*/.Trashes/* &>/dev/null
+# sudo rm -rfv ~/.Trash/* &>/dev/null
 
 msg 'Clearing System Cache Files...'
 sudo rm -rfv /Library/Caches/* &>/dev/null
